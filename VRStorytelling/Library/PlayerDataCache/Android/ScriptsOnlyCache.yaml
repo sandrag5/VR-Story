@@ -2,9 +2,10 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - MainCameraForest
-    - PlayButtonHandler
+    - MainMenu
     - SimpleCharacterControl
     Unity.TextMeshPro.dll:
+    - TMPro.TMP_ColorGradient
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
@@ -62,9 +63,9 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9752}
+      Script: {instanceID: 9746}
     - Class: 114
-      Script: {instanceID: 15292}
+      Script: {instanceID: 9754}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -115,17 +116,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9480}
     - Class: 114
-      Script: {instanceID: 9844}
+      Script: {instanceID: 9850}
     - Class: 114
-      Script: {instanceID: 9848}
+      Script: {instanceID: 10394}
     - Class: 114
-      Script: {instanceID: 10392}
+      Script: {instanceID: 10406}
     - Class: 114
-      Script: {instanceID: 10404}
+      Script: {instanceID: 10548}
     - Class: 114
-      Script: {instanceID: 10546}
+      Script: {instanceID: 10786}
     - Class: 114
-      Script: {instanceID: 10784}
+      Script: {instanceID: 10858}
+    - Class: 114
+      Script: {instanceID: 13238}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -595,6 +598,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainCameraForest
+  - hash:
+      serializedVersion: 2
       Hash: 07d69ce4a98bc6bb9d8730614c21369e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -623,12 +632,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayButtonHandler
   - hash:
       serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
@@ -1648,7 +1651,7 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: MainCameraForest
+    className: MainMenu
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity
