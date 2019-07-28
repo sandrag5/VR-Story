@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AssetStore\HONETi\mobile_cartoon_GUI\Scripts\switch_scenes.cs" />
     <Compile Include="Assets\AssetStore\Supercyan Character Pack Free Sample\Scripts\CameraLogic.cs" />
     <Compile Include="Assets\AssetStore\Supercyan Character Pack Free Sample\Scripts\Demo.cs" />
     <Compile Include="Assets\AssetStore\Supercyan Character Pack Free Sample\Scripts\SimpleCharacterControl.cs" />

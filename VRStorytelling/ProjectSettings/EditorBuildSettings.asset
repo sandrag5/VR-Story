@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/Menu - Copy.unity
+    guid: b98393c37e6d16f48b88f33fced2458a
   - enabled: 1
     path: Assets/Scenes/ForestScene.unity
     guid: 90898a49e13b3774786256c5d1b4d602
