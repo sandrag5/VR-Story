@@ -20,7 +20,11 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Slider
+    - UnityEngine.UI.Toggle
   sceneClasses:
     Assets/Scenes/ForestScene.unity:
     - Class: 1
@@ -115,9 +119,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9444}
     - Class: 114
+      Script: {instanceID: 9452}
+    - Class: 114
+      Script: {instanceID: 9470}
+    - Class: 114
+      Script: {instanceID: 9472}
+    - Class: 114
       Script: {instanceID: 9478}
     - Class: 114
       Script: {instanceID: 9480}
+    - Class: 114
+      Script: {instanceID: 9484}
     - Class: 114
       Script: {instanceID: 9850}
     - Class: 114
