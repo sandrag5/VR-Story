@@ -62,10 +62,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\01_Basic\Cell.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\01_Basic\Example01.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\01_Basic\ItemData.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\01_Basic\ScrollView.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\02_FocusOn\Cell.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\02_FocusOn\Context.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\02_FocusOn\Example02.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\02_FocusOn\ItemData.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\02_FocusOn\ScrollView.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\04_Metaball\Background.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\04_Metaball\Cell.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\04_Metaball\Context.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\04_Metaball\Example04.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\04_Metaball\ItemData.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\04_Metaball\ScrollView.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\05_Voronoi\Background.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\05_Voronoi\Cell.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\05_Voronoi\Context.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\05_Voronoi\Example05.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\05_Voronoi\ItemData.cs" />
+    <Compile Include="Assets\AssetStore\FancyScrollView\Examples\Sources\05_Voronoi\ScrollView.cs" />
     <Compile Include="Assets\AssetStore\HONETi\mobile_cartoon_GUI\Scripts\switch_scenes.cs" />
     <Compile Include="Assets\AssetStore\Supercyan Character Pack Free Sample\Scripts\CameraLogic.cs" />
     <Compile Include="Assets\AssetStore\Supercyan Character Pack Free Sample\Scripts\Demo.cs" />
     <Compile Include="Assets\AssetStore\Supercyan Character Pack Free Sample\Scripts\SimpleCharacterControl.cs" />
+    <Compile Include="Assets\Scripts\03_InfiniteScroll\Cell.cs" />
+    <Compile Include="Assets\Scripts\03_InfiniteScroll\Context.cs" />
+    <Compile Include="Assets\Scripts\03_InfiniteScroll\Example03.cs" />
+    <Compile Include="Assets\Scripts\03_InfiniteScroll\ItemData.cs" />
+    <Compile Include="Assets\Scripts\03_InfiniteScroll\ScrollView.cs" />
     <Compile Include="Assets\Scripts\MainCameraForest.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\MainMenuHandler.cs" />
@@ -73,6 +99,8 @@
     <None Include="Assets\AssetStore\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\AssetStore\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\AssetStore\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\AssetStore\FancyScrollView\Examples\Sources\04_Metaball\Metaball.shader" />
+    <None Include="Assets\AssetStore\FancyScrollView\Examples\Sources\04_Metaball\Metaball.hlsl" />
     <None Include="Assets\AssetStore\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\AssetStore\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\AssetStore\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
@@ -84,8 +112,11 @@
     <None Include="Assets\AssetStore\BOXOPHOBIC\Skybox Cubemap Extended\Shaders\Skybox Cubemap Extended.shader" />
     <None Include="Assets\AssetStore\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\AssetStore\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\AssetStore\FancyScrollView\Examples\Sources\05_Voronoi\Voronoi.shader" />
     <None Include="Assets\AssetStore\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
     <None Include="Assets\AssetStore\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\AssetStore\FancyScrollView\Examples\Sources\05_Voronoi\Voronoi.hlsl" />
+    <None Include="Assets\AssetStore\FancyScrollView\Examples\Sources\Common\Common.cginc" />
     <None Include="Assets\AssetStore\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\AssetStore\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.Timeline.Editor">
@@ -646,6 +677,16 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="FancyScrollView.Editor.csproj">
+      <Project>{097DFF0E-1536-4BBE-0351-411BE1745162}</Project>
+      <Name>FancyScrollView.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FancyScrollView.csproj">
+      <Project>{5D486A35-CAF7-1DBE-6B9C-868144626839}</Project>
+      <Name>FancyScrollView</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
