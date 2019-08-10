@@ -211,4 +211,8 @@ C:\Users\Sandra\Documents\GitHub\VRStory\VRStorytelling\obj\Debug\Assembly-CShar
 C:\Users\Sandra\Documents\GitHub\VRStory\VRStorytelling\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\Sandra\Documents\GitHub\VRStory\VRStorytelling\obj\Debug\Assembly-CSharp.dll
 C:\Users\Sandra\Documents\GitHub\VRStory\VRStorytelling\obj\Debug\Assembly-CSharp.pdb
-C:\Users\Sandra\Documents\GitHub\VRStory\VRStorytelling\Temp\bin\Debug\Assembly-CSharp.dll.CodeAnalysisLog.xml
+C:\Users\Sandra\Documents\GitHub\VRStory\VRStorytelling\Temp\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Sandra\Documents\GitHub\VRStory\VRStorytelling\Temp\bin\Debug\Boo.Lang.dll
+C:\Users\Sandra\Documents\GitHub\VRStory\VRStorytelling\Temp\bin\Debug\UnityEditor.UI.dll
+C:\Users\Sandra\Documents\GitHub\VRStory\VRStorytelling\Temp\bin\Debug\FancyScrollView.Editor.pdb
+C:\Users\Sandra\Documents\GitHub\VRStory\VRStorytelling\Temp\bin\Debug\FancyScrollView.pdb

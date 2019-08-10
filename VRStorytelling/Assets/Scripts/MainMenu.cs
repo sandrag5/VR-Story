@@ -19,12 +19,6 @@ public class MainMenu : MonoBehaviour
 
     }
 
-    // Cambiar a elige una escena
-    public void DoOnPlayClick()
-    {
-        SceneManager.LoadScene("ForestScene");
-    }
-
     public void DoOnQuickClick()
     {
         Application.Quit();

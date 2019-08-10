@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FancyScrollView", "FancyScrollView.csproj", "{5D486A35-CAF7-1DBE-6B9C-868144626839}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{AE8458EB-E859-8359-4341-5709227F5C66}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FancyScrollView.Editor", "FancyScrollView.Editor.csproj", "{097DFF0E-1536-4BBE-0351-411BE1745162}"
 EndProject
 Global
@@ -21,6 +23,10 @@ Global
 		{5D486A35-CAF7-1DBE-6B9C-868144626839}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D486A35-CAF7-1DBE-6B9C-868144626839}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D486A35-CAF7-1DBE-6B9C-868144626839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE8458EB-E859-8359-4341-5709227F5C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8458EB-E859-8359-4341-5709227F5C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8458EB-E859-8359-4341-5709227F5C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8458EB-E859-8359-4341-5709227F5C66}.Release|Any CPU.Build.0 = Release|Any CPU
 		{097DFF0E-1536-4BBE-0351-411BE1745162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{097DFF0E-1536-4BBE-0351-411BE1745162}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{097DFF0E-1536-4BBE-0351-411BE1745162}.Release|Any CPU.ActiveCfg = Release|Any CPU
