@@ -1,7 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - Dialog
+    - DialogManager
     - GvrReticlePointer
     - MainCameraForest
     - MainMenu
@@ -13,6 +13,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -62,8 +63,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
-    - Class: 92
-      Script: {instanceID: 0}
     - Class: 95
       Script: {instanceID: 0}
     - Class: 104
@@ -72,8 +71,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 9522}
-    - Class: 114
-      Script: {instanceID: 9524}
     - Class: 114
       Script: {instanceID: 9530}
     - Class: 114
@@ -87,13 +84,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9902}
     - Class: 114
-      Script: {instanceID: 10362}
-    - Class: 114
       Script: {instanceID: 10674}
     - Class: 114
-      Script: {instanceID: 10868}
-    - Class: 114
       Script: {instanceID: 10892}
+    - Class: 114
+      Script: {instanceID: 11240}
+    - Class: 114
+      Script: {instanceID: 33440}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -164,6 +161,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9584}
     - Class: 114
+      Script: {instanceID: 9936}
+    - Class: 114
       Script: {instanceID: 10014}
     - Class: 114
       Script: {instanceID: 10674}
@@ -177,8 +176,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11148}
     - Class: 114
       Script: {instanceID: 11242}
-    - Class: 114
-      Script: {instanceID: 25082}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -756,6 +753,12 @@ ScriptsOnlyBuild:
     className: SwitchVideos
   - hash:
       serializedVersion: 2
+      Hash: 9a3ff430e011522b0e353396fe806663
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StoryMenu
+  - hash:
+      serializedVersion: 2
       Hash: 11182ae33aeebaa701c6f03cb7f19976
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1246,12 +1249,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GvrAllEventsTrigger
-  - hash:
-      serializedVersion: 2
-      Hash: 3bb7b70e6d20c7e200e8a547caa2995a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Dialog
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -2094,10 +2091,10 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 9a3ff430e011522b0e353396fe806663
+      Hash: a15e71eba9697d407007d07ef79311d5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: StoryMenu
+    className: DialogManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity

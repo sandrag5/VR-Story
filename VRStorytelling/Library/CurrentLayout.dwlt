@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 494}
   m_MaxSize: {x: 14002, y: 14044}
   vertical: 0
-  controlID: 35
+  controlID: 84
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -294,14 +294,14 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 426
+    x: 405
     y: 73
-    width: 994
-    height: 554
+    width: 953
+    height: 581
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 91212
+  m_LastSelectedObjectID: -7912
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -366,20 +366,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Sandra\Documents\GitHub\VRStory\VRStorytelling
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 98300000
-    m_LastClickedID: 12440
-    m_ExpandedIDs: 000000006a2d0000f22d0000242f0000642f0000b22f0000c63000000c330000b4340000f4340000ac3500005e360000ca36000000ca9a3b
+    m_SelectedIDs: f6340000
+    m_LastClickedID: 13558
+    m_ExpandedIDs: 000000006c2d0000f42d0000262f0000662f0000b42f0000c8300000b83200000e330000b6340000f6340000ae35000060360000cc36000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -407,7 +407,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006a2d0000f22d0000242f0000642f0000b22f0000c63000000c330000b4340000f4340000ac3500005e360000ca360000
+    m_ExpandedIDs: 000000006c2d0000f42d0000262f0000662f0000b42f0000c8300000b83200000e330000b6340000f6340000ae35000060360000cc360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -527,23 +527,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 56cafeffe8cafeff18cbfeffe4cefefff8cefeff82d1feffce34ffff5e3dffff663dffff6e3dffff763dffff7e3dffff863dffff8e3dffff963dffff9e3dffffa63dffff3e52fffff088ffff1c89ffff828affff968affffa08bffffcc8bffff988fffffbc8fffff0a97ffff3299ffff2cadffff36aeffffc6c7ffffaeccffffdeccffff44ceffff58ceffff2ed2ffff5ed2ffffc4d3ffffd8d3ffff30d7ffff40daffff02dcffff80ddffffb0ddffff7ce1ffff90e1ffffd4efffff04f0ffffd2f3fffffcf3ffff6cf9ffff6cfbffff103a0000983b0000b03b0000c63b0000663f000058510000e0520000f85200000e53000070530000305600003a5600006a5600006e5600009a560000a68e0000a893000096b400003cb50000b0b60000c0b70000cab70000dcb70000e0b70000aec30000f8c3000014c4000048c40000d0c400002cc5000056c50000e2c60000f4c60000f8c60000c6510100e8520100de60010066610100a0610100ba610100d46101001c62010086620100d46201001263010042630100fe630100086401001264010024640100286401003a6401004c640100
+      m_SelectedIDs: 68a70000
+      m_LastClickedID: 42856
+      m_ExpandedIDs: 44d3ffff74d3ffff80d3ffff94d3ffffbed5ffffeed5ffff56d8ffff78d8ffffdee5ffff0ee6ffff1ae6ffff2ee6ffffaaecffffdaecffffe6ecfffffaecffff3ef1ffff6ef1ffff7af1ffff8ef1ffff3ef3ffff6ef3ffff7af3ffff8ef3ffff64f6ffff90f6fffffcf8ffff1ef9ffff6cfbffff0e44000052440000d4440000fa5100003e520000c0520000a05d0000ee5e0000325f0000ac5f0000b45f0000706d0000d46e00001e6f0000bc6f0000aa7f0000328100007c810000a68100001a820000b695000064970000b6970000529800004aa700008ca70000fca70000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: ContinueButton
+        m_OriginalName: ContinueButton
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 32718
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -589,9 +589,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 525.935, y: 1231.469, z: 0}
+    m_Target: {x: 8.03666, y: 0.5025134, z: 11.849245}
     speed: 2
-    m_Value: {x: 525.935, y: 1231.469, z: 0}
+    m_Value: {x: 8.03666, y: 0.5025134, z: 11.849245}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -620,13 +620,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: 0.0014661038, y: 0.21139312, z: -0.00031706571, w: 0.97740114}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0.0014661022, y: 0.2113929, z: -0.00031706537, w: 0.97740006}
   m_Size:
-    m_Target: 3980.6274
+    m_Target: 20.779697
     speed: 2
-    m_Value: 4168.1963
+    m_Value: 20.779697
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -731,7 +731,7 @@ MonoBehaviour:
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000001000100000100
-  m_XRRenderMode: 2
+  m_XRRenderMode: 0
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
