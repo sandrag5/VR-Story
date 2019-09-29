@@ -217,6 +217,7 @@
     <Compile Include="Assets\Scripts\03_InfiniteScroll\ItemData.cs" />
     <Compile Include="Assets\Scripts\03_InfiniteScroll\ScrollView.cs" />
     <Compile Include="Assets\Scripts\DialogManager.cs" />
+    <Compile Include="Assets\Scripts\FPSController.cs" />
     <Compile Include="Assets\Scripts\MainCameraForest.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\StoryMenu.cs" />
